@@ -1,6 +1,6 @@
 // Constant is just declared
-const userName;
-console.log(userName);
+// const userName;
+// console.log(userName);
 // output
 // SyntaxError: Missing initializer in const declaration
 
@@ -14,8 +14,18 @@ console.log(clientName);
 
 
 // Trying to change the value of constant
-const message = 'Hello js';
-message = 'bye bye old trends';
-console.log(message);
+// const message = 'Hello js';
+// message = 'bye bye old trends';
+// console.log(message);
 // output
 // TypeError: Assignment to constant variable.
+
+// Constat is immutable 
+const userOne = 'welcome';
+console.log(userOne);
+// add straing to constant
+const userTwo = userOne+'javascript';
+console.log(userTwo);
+
+// output
+// welcomejavascript
