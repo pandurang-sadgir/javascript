@@ -20,7 +20,7 @@ console.log(clientName);
 // output
 // TypeError: Assignment to constant variable.
 
-// Constat is immutable 
+// Constant is immutable but we can generate value by using it .
 const userOne = 'welcome';
 console.log(userOne);
 // add straing to constant

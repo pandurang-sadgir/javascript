@@ -21,6 +21,8 @@ var str
 str='javascript';
 console.log(str+'string');
 
+// output:
+// javascriptstring
 // Note behind the scene the original straing is destraoyed.
 
 // let us understand following example to know JS string is immutable 
@@ -32,3 +34,14 @@ console.log(str1);
 // output:
 // It does not assign P to J
 // Javascript
+
+
+// Re-assignment to string
+
+var user = 'paddy';
+   user = 'Tiger';
+   console.log(user);
+
+   // output:
+// Tiger
+
