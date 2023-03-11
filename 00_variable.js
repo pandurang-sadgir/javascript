@@ -48,3 +48,11 @@ console.log('after changing value',messageInString);
 // console.log(undeclaredVariale);
 // output
 // ReferenceError: undeclaredVariale is not defined
+
+// Note var keyword allow redeclration of same variable
+
+var str ='hello';
+var str ='welcome';
+console.log(str);
+// output
+// welcome
