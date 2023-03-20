@@ -46,7 +46,7 @@ console.log(`Accessing the property which is not exist: ${user.address}`);
 // Modifying the value of property in object
 
 
-let user1 = {
+let user1 = { 
     'firstName':'abc',
     'lastName':'xyz'
 }
