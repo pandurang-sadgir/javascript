@@ -112,6 +112,8 @@ console.log(`The modulo is :`, mod(-5,3));
 
 
 
+// Note: modulo has divisor sign whereas remainder hs dividend sign . 
+
 
 
 
