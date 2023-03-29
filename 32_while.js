@@ -34,3 +34,13 @@ while(infinite){
 // 
 // It will print hi infinitly 
 
+
+
+// print number 1 to 10 using do whle loop
+let b = 1;
+do{
+console.log(a);
+a++;
+}while(1<=10);
+
+
