@@ -28,6 +28,7 @@ for(let i = 0,j=1; i<numberOfArray.length;i++,j++){
 console.log(`The original array is ${numberOfArray}`);
 console.log(`The matrix of numbers`);
 console.log(matrix);
+console.log(typeof matrix);
 
 // output:
 // The original array is 1,2,3,4,5,6,7,8,9
@@ -35,5 +36,7 @@ console.log(matrix);
 // 1 2 3
 // 4 5 6
 // 7 8 9
+
+
 
 
