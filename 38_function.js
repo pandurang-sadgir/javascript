@@ -118,3 +118,63 @@ console.log(ab);
 console.log('aavava');
 var ab= 1212122 ;
 console.log(ab);
+
+
+
+let anum  = [1,1,-1,0,0,-1];
+console.log(anum.sort());
+
+
+// anonymous function 
+let a = function (){
+    console.log(`This is anonymous function`);
+}
+a();
+
+// we can return function from function 
+
+let users = [
+{ 'name':'x','age':10,'salary':22000},
+{ 'name':'d','age':60,'salary':25000},
+{ 'name':'g','age':80,'salary':28000},
+{ 'name':'h','age':40,'salary':27000},
+{ 'name':'j','age':60,'salary':26000}
+]
+function compareBy(propertyName){
+    return function(a,b){
+        let x = a[propertyName],
+            y = b[propertyName];
+
+
+    }
+
+}
+
+let sortObject = users.sort();
+
+console.log('A'<'a');
+
+// anonymous function
+
+let na = (function (){
+    console.log(`This is anonymous function himmmmmmmmmmmmmmm`);
+})
+
+let hh = setTimeout(na,1000);
+
+
+// creating immeddiately invoked function
+
+(function(){
+    console.log(`This is IIF`);
+})();
+
+
+
+
+var lhh;
+console.log(lhh)
+
+let show = ()=>10+2055555;
+let ff = show();
+console.log(ff);
