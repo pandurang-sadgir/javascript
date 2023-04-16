@@ -3,11 +3,11 @@ let person = {
     'lastName':'depp'
 }
 
-person.greet = function(){
-    console.log(`Welcome to JavaScript world`);
-};
-console.log(person)
-person.greet();
+// person.greet = function(){
+//     console.log(`Welcome to JavaScript world`);
+// };
+// console.log(person)
+// person.greet();
 
 // output:
 // { firstName: 'johny', lastName: 'depp', greet: [Function (anonymous)] }
@@ -23,9 +23,9 @@ let user = {
     console.log(` Hi..there Welcome to JavaScript world`);
 };
 
-user.greet = msg;
-console.log(user)
-user.greet();
+// user.greet = msg;
+// console.log(user)
+// user.greet();
 // output:
 // { firstName: 'johny', lastName: 'depp', greet: [Function: msg] }
 //  Hi..there Welcome to JavaScript world
