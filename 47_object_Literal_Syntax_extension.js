@@ -75,9 +75,12 @@ let userDetails = {
     'lastName':'cina',
      'full Name'(){
         console.log(`The user full name is: ${this.firstName} ${this.lastName}`);
+    },
+    'message'(){
+        console.log('object literal syntax');
     }
 }
 
  userDetails['full Name']();
- 
+userDetails.message()
 
