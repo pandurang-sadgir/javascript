@@ -23,3 +23,7 @@ for (const key in userDetails) {
 // age : 50000
 // job : lord of universe
 
+let msg = 'Multiline \n
+ string';
+
+console.log(msg);
