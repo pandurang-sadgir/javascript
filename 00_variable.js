@@ -56,3 +56,4 @@ var str ='welcome';
 console.log(str);
 // output
 // welcome
+
