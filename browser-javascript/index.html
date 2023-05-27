@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Welcome to JavaScript</h1>
+    <script>
+        console.log(`Hii there welcome to javascript throught browser`);
+        document.getElementById('h1').addEventListener("click",()=>{
+            console.log(`The event is happend`);
+            alert(`Hi there `);
+        })
+
+        let isConfirmation = confirm('Are you sure to show the message on console');
+
+        if(isConfirmation){
+            console.log(`confirm method is run`);
+        }
+
+            </script>
+</body>
+</html>
