@@ -1,0 +1,18 @@
+What is instance variable?
+The instance variable is variable but its instance get create when instance of object
+get created.
+
+Rules-Regulation:
+1.The instance variable must be declare in class not in methods,constructor.
+2.The instace variable always get,(require) default value or type.
+3.we can not reinitialize instance variable in class
+4.But we can change the value of instance variable in constructor,methods.
+but default value same to all isntace of object.
+5.The instace of variable get created only when instace of  objects get created.
+6.Each and every instace of object hold differet copy of instace variable.
+7.Each every instace of object able to chance its own instace variable wihtout
+affecting other instace of varible of other instace of object.
+8.The instace variable not alllowed in static method.
+Note:IF we not follow rules and regulation we get error.
+
+

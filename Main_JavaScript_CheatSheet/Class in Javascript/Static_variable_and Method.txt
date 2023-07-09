@@ -1,0 +1,25 @@
+Static variable and Methods:
+
+Rules and regulations:
+
+1.We create static variable using only (static ) keyword adding it front of variable.
+2.we declare static variable only within class not in constructor and methods.
+3.static variable only get access,refer by its class name only.
+4.Its only one copy get created i.e one static  variable get access by all methods.
+5.Static varaible does not get default value(i.e initialization not mandetory).
+6.only one copy(one memoery location) means multiple methods use
+use only one static variable.
+note:instance of object not use static variable ,not recommended.
+7.static variable means creating varible like which is single memory placeholder 
+which is use in class. 
+8.Static variable,method only get access by its class name.
+9.It is only class property not object.
+
+
+
+Static Method:
+
+1.The Static method is creating using (static) keyword at front of method name.
+2.Static method get access by its class name only.
+3.static method only access the satic variable and static methods only.
+3.But we can use static method in non-static method by its class name.

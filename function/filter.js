@@ -10,7 +10,7 @@ let userData = [
 
 let youngYouth = userData.filter((val,index,arr)=>{
     if(val.age>20 && val.age<30){
-        return true;//Tis return object value.
+        return true;//This return object value.
     }else{
         return false;
     }

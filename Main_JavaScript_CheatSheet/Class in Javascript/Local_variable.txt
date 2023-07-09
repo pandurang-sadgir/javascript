@@ -1,0 +1,4 @@
+Local variable:
+Rules and regulation:
+1.The local variable is declare inside method or method parameters.
+2.They do not  have  default value.
