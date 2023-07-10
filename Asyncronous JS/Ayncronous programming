@@ -1,0 +1,4 @@
+We can achieve the asyncronous programmin in JavaScript using 
+1. callback
+2. aync/ await
+3. promises
