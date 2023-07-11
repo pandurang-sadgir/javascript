@@ -14,6 +14,9 @@ console.log('Welcome to asyncronous programming');
 
 
 // 2.Asyncronous nature of program execution.
+for(let i = 0; i<10; i++){
+    console.log('It is waiting loop');
+}
 setTimeout(()=>{
     for (let i= 0; i < 500; i++) {
         const index = i;
